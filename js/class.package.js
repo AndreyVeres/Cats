@@ -71,19 +71,4 @@ function handler(event){
 
 
 
-// {
-//     let text = pack.querySelector('p');
-//     const oldValue = pack.querySelector('p').textContent;
-//     let textValue = this.text;
-//     pack.addEventListener('click', function () {
-//         if (!pack.parentElement.classList.contains('selected')) {
-//             console.log('asd')
-//             text.textContent = textValue;
-          
-//         }
-//         if (oldValue === this.textToToggle) {
-//             console.log('asdddd')
-//             text.textContent = oldValue;
-//         }
-//     });
-// }
+
