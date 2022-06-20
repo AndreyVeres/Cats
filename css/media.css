@@ -1,0 +1,36 @@
+@media (max-width : 1000px) {
+    .package__list {
+        flex-direction: column;
+        margin-left: calc(50% - 340px);
+    }
+
+    .package__item:first-child {
+        margin-bottom: 70px;
+    }
+
+    .package__item:last-child {
+        position: absolute;
+        right: 0;
+        margin-right: calc(50% - 340px);
+    }
+}
+
+@media (max-width : 700px) {
+    .package__list {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    .package__item:nth-child(-n+2) {
+        margin-bottom: 70px;
+    }
+
+    .package__item:last-child {
+        position: static;
+        right: 0;
+        margin: 0;
+    }
+}
+
+
